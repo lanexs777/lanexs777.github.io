@@ -1,2 +1,2 @@
 # lanexs777.github.io
-personal dwebsite
+personal website

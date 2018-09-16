@@ -53,17 +53,17 @@ title: chun lun Lin
           <span class="heading"><h3>Experience</h3></span>
           {% for experience in site.data.exp %}
             <div class="level is-marginless">
-              <p class="is-marginless">{{ experience.company }}<br/><span class="content is-marginless" style="font-size: 0.8rem">{{ experience.role }}, {{ experience.team }}</span></p>
-              <p style="text-align: right; font-size: 0.8rem">{{ experience.company_location }}<br/><span class="content is-marginless">{{ experience.time_duration }}</span></p>
+              <p class="is-marginless">DSNS Lab at NCTU<br/><span class="content is-marginless" style="font-size: 0.8rem">Research Assistant, DSNS</span></p>
+              <p style="text-align: right; font-size: 0.8rem">Hsinchu, Taiwan<br/><span class="content is-marginless">July 2016 - August 2017</span></p>
             </div>
             <ul style="margin-top: 0.2em; list-style-type: circle;">
               {% for detail in experience.details %}
               <li class="content is-marginless" style="font-size: 0.8rem">
                 <span class="heading is-marginless">
-                  {{ detail.title }}
+                  Firmadyne
                   <span style="margin-left:  5px; font-size: 10px; font-family:  monospace; color: #00d1b2;">{{ detail.languages }}</span>
                 </span>
-                {{ detail.description }}
+                  Based on the Firmadyne we improved the automatic procedure to make it can fit with more different firmware. In addition, we increase some secure detect mechanism including fuzzing binary and some primitive level linting.
               </li>
               {% endfor %}
             </ul>
